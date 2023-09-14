@@ -1,0 +1,3 @@
+Get-ADUser -Filter {EmailAddress -like "user@domain.com"} -Properties * | Get-Member -MemberType Property
+
+Get-ADUser -Filter {EmailAddress -like "salman.siddiqui@gov.ab.ca"} -Properties * | Get-Member -MemberType Property
