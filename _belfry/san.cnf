@@ -1,0 +1,16 @@
+[ req ]
+default_bits       = 2048
+distinguished_name = req_distinguished_name
+req_extensions     = req_ext
+[ req_distinguished_name ]
+countryName                 = CA
+stateOrProvinceName         = Alberta
+localityName               = Edmonton
+organizationName           = Government of the Province of Alberta
+organizationUnit           = Public Service Commission
+commonName                 = lms.chr.alberta.ca
+[ req_ext ]
+subjectAltName = @alt_names
+[alt_names]
+DNS.1   = www.lms.chr.alberta.ca
+DNS.2   = lms.chr.alberta.ca
